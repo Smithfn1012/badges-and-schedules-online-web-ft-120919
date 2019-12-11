@@ -16,11 +16,9 @@ def assign_rooms(array_of_names)
   end
 end
 
-def printer(attendee
+def printer(attendees)
   attendee_badges = batch_badge_creator(attendees)
   attendee_rooms = assign_rooms(attendees)
-
-  #test requires printer to puts attendee badges and room assignment messages one at a time
   attendee_badges.each do |badge|
     puts badge
   end
