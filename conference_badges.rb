@@ -8,3 +8,4 @@ def batch_badge_creator(array_of_names)
     batch_array << badge_maker(name)
   end
 end
+
